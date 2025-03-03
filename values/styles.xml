@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="cardStyle">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="cardCornerRadius">@dimen/corner_radius</item>
+        <item name="cardBackgroundColor">?attr/cardBackgroundColor</item>
+        <item name="cardElevation">10dp</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="contentPaddingLeft">10dp</item>
+        <item name="contentPaddingRight">10dp</item>
+    </style>
+    <style name="rockerBtnStyle">
+        <item name="android:background">@drawable/round_btn_border</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="settingsEntryStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:thumbTint">@color/selector_switch_thumb</item>
+    </style>
+    <style name="subtitleStyle">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:paddingRight">35dp</item>
+        <item name="android:textColor">?android:attr/subtitleTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="spinnerStyle">
+        <item name="android:textColor">?attr/colorSecondary</item>
+        <item name="backgroundTint">?attr/colorSecondary</item>
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+    <style name="editTextStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:saveEnabled">false</item>
+    </style>
+    <style name="fabStyle">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="backgroundTint">?colorSecondary</item>
+        <item name="tint">@color/gray_700</item>
+    </style>
+    <style name="fabTextStyle">
+        <item name="android:layout_marginTop">-5dp</item>
+
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">?colorSecondary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:shadowColor">?android:shadowColor</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">15</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="sheetEntryStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?android:attr/titleTextColor</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <!--override bottom dialog sheet background-->
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/sheet_background</item>
+    </style>
+
+    <!--custom menu text size-->
+    <style name="popupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="progressDialogStyle" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">?colorSecondary</item>
+    </style>
+</resources>

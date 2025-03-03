@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FileGuardian</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="drag_icon_1">Soccer</string>
+    <string name="drag_icon_2">Donut</string>
+    <string name="drag_icon_3">Basketball</string>
+
+    <string name="settings_category_general">General</string>
+    <string name="settings_category_interaction">Interaction</string>
+    <string name="settings_category_advanced">Advanced</string>
+
+    <string name="settings_entry_cross">Show cross</string>
+    <string name="settings_entry_theme">Theme</string>
+    <string name="settings_entry_language">Language</string>
+    <string name="settings_entry_about">About FileGuardian</string>
+    <string name="settings_entry_update">Check update</string>
+    <string name="settings_entry_current">Current: v</string>
+    <string name="settings_entry_show_item_count">Show number of items in folders</string>
+    <string name="settings_entry_travel">Rocker travel</string>
+    <string name="settings_entry_vibration">Haptic feedback</string>
+    <string name="settings_entry_animation">Animation scale</string>
+    <string name="settings_entry_overshoot">Animation overshoot</string>
+    <string name="settings_entry_smratio">Spin-move ratio</string>
+    <string name="settings_entry_tmratio">2-finger gesture judgement ratio</string>
+    <string name="settings_entry_reset">Reset settings</string>
+
+    <string name="spinner_theme_1">Light</string>
+    <string name="spinner_theme_2">Dark</string>
+    <string name="spinner_theme_3">System</string>
+
+    <string name="spinner_language_1" translatable="false">English</string>
+    <string name="spinner_language_2" translatable="false">简体中文</string>
+    <string name="spinner_language_3">System</string>
+
+    <string name="spinner_travel_1">Short</string>
+    <string name="spinner_travel_2">Middle</string>
+    <string name="spinner_travel_3">Long</string>
+
+    <string name="spinner_animation_1">Animation off</string>
+    <string name="spinner_animation_2">Scale .5x</string>
+    <string name="spinner_animation_3">Scale 1x</string>
+    <string name="spinner_animation_4">Scale 1.5x</string>
+    <string name="spinner_animation_5">Scale 2x</string>
+    <string name="spinner_animation_6">Scale 5x</string>
+
+    <string name="overshoot_description">(0–1) Rocker rebound overshoot</string>
+    <string name="smratio_description">(0–1) The ratio of the distance the rocker moves when dragging with one finger and two fingers</string>
+    <string name="tmratio_description">(0–0.1) The ratio of finger movement distance to the shortest edge of the interactive interface when distinguishing between pinching and dragging with two fingers</string>
+
+    <string name="edittext_overshoot_hint" translatable="false">0.3</string>
+    <string name="edittext_smratio_hint" translatable="false">0.2</string>
+    <string name="edittext_tmratio_hint" translatable="false">0.04</string>
+
+    <string name="new_file">Upload file</string>
+    <string name="new_folder">New folder</string>
+    <string name="new_locked_folder">New locked folder</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Close</string>
+    <string name="finish">Finish</string>
+    <string name="retain">Retain</string>
+
+    <string name="empty">No items</string>
+    <string name="no_permission">Please grant the permission</string>
+    <string name="new_folder_hint">Folder name</string>
+    <string name="new_folder_exists">Folder exists</string>
+    <string name="error">Error!</string>
+    <string name="file_name_invalid">Invalid file name</string>
+    <string name="edit_file_rename">Rename</string>
+    <string name="edit_file_delete">Delete</string>
+    <string name="reset_title">Reset all settings?</string>
+    <string name="rename_hint">New name</string>
+    <string name="rename_ok">Rename</string>
+    <string name="delete_ok">Delete</string>
+    <string name="password_hint">Please enter gestures</string>
+    <string name="about_repo" translatable="false">GitHub</string>
+    <string name="about_message">
+        FileGuardian is an Android app that protects sensitive files on mobile phones using secret multi-finger gestures.\n\n
+        Features\n
+        - Intuitive password interaction\n
+        - Supports 11 gestures\n
+        - AES CBC PKCS5Padding\n
+        - File management system\n
+        - Customizable\n
+        - Fine animations and haptic\n
+        - Dark mode\n\n</string>
+    <string name="delete_origin_title">Delete original file?</string>
+    <string name="delete_origin_message">Your file has been successfully encrypted and you are strongly advised to delete the original file.</string>
+    <string name="delete_origin_success">Original file deleted</string>
+    <string name="delete_origin_failed">Original file delete failed!</string>
+
+    <string name="menu_sort">Sort by…</string>
+    <string name="menu_order">Sort order…</string>
+    <string name="menu_property">Property showed…</string>
+
+    <string name="sheet_sort_title">SORT BY</string>
+    <string name="sheet_order_title">SORT ORDER</string>
+    <string name="sheet_property_title">PROPERTY SHOWED</string>
+
+    <string name="sort_name">File name</string>
+    <string name="sort_date">Creation date</string>
+    <string name="sort_size">File size</string>
+
+    <string name="order_ascend">Ascending order</string>
+    <string name="order_descend">Descending order</string>
+
+    <string name="property_type">File type</string>
+    <string name="property_null">Don\'t show</string>
+
+    <string name="type_folder">Folder</string>
+    <string name="type_folder_locked">Locked folder</string>
+    <string name="type_text">Text file</string>
+    <string name="type_image">Image</string>
+    <string name="type_video">Video</string>
+    <string name="type_audio">Audio</string>
+    <string name="type_zip">Compressed file</string>
+    <string name="type_apk">Application package</string>
+    <string name="type_doc">Microsoft Word</string>
+    <string name="type_ppt">Microsoft PowerPoint</string>
+    <string name="type_xls">Microsoft Excel</string>
+    <string name="type_pdf">Portable document</string>
+    <string name="type_other">Other type</string>
+
+    <string name="guide_title">Gesture Guide</string>
+    <string name="guide_tap">Tap</string>
+    <string name="guide_swipe">Swipe</string>
+    <string name="guide_scroll">Scroll</string>
+    <string name="guide_pinch">Pinch</string>
+    <string name="guide_unpinch">Unpinch</string>
+
+    <string name="progress_encryption">Encrypting file…</string>
+    <string name="progress_encryption_message">Please wait</string>
+    <string name="progress_decryption">Decrypting file…</string>
+</resources>

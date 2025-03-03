@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvPropertyTitle"
+        style="@style/subtitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingBottom="15dp"
+        android:text="@string/sheet_property_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPropertyDate"
+        style="@style/sheetEntryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="65dp"
+        android:text="@string/sort_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPropertyTitle" />
+
+    <ImageView
+        android:id="@+id/imgPropertyDateCheck"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:padding="15dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPropertyDate"
+        app:srcCompat="@drawable/ic_check"
+        app:tint="?colorSecondary" />
+
+    <ImageView
+        android:id="@+id/imgPropertyDateIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPropertyDate"
+        app:srcCompat="@drawable/ic_file_date"
+        app:tint="?android:attr/titleTextColor" />
+
+    <TextView
+        android:id="@+id/tvPropertySize"
+        style="@style/sheetEntryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="65dp"
+        android:text="@string/sort_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgPropertyDateCheck" />
+
+    <ImageView
+        android:id="@+id/imgPropertySizeCheck"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:padding="15dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPropertySize"
+        app:srcCompat="@drawable/ic_check"
+        app:tint="?colorSecondary" />
+
+    <ImageView
+        android:id="@+id/imgPropertySizeIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPropertySize"
+        app:srcCompat="@drawable/ic_file_size"
+        app:tint="?android:attr/titleTextColor" />
+
+    <TextView
+        android:id="@+id/tvPropertyType"
+        style="@style/sheetEntryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="65dp"
+        android:text="@string/property_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPropertySize" />
+
+    <ImageView
+        android:id="@+id/imgPropertyTypeCheck"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:padding="15dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPropertyType"
+        app:srcCompat="@drawable/ic_check"
+        app:tint="?colorSecondary" />
+
+    <ImageView
+        android:id="@+id/imgPropertyTypeIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPropertyType"
+        app:srcCompat="@drawable/ic_file_type"
+        app:tint="?android:attr/titleTextColor" />
+
+    <TextView
+        android:id="@+id/tvPropertyNull"
+        style="@style/sheetEntryStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingStart="65dp"
+        android:text="@string/property_null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPropertyType" />
+
+    <ImageView
+        android:id="@+id/imgPropertyNullCheck"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:padding="15dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPropertyNull"
+        app:srcCompat="@drawable/ic_check"
+        app:tint="?colorSecondary" />
+
+    <ImageView
+        android:id="@+id/imgPropertyNullIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvPropertyNull"
+        app:srcCompat="@drawable/ic_null"
+        app:tint="?android:attr/titleTextColor" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPropertyNull" />
+</androidx.constraintlayout.widget.ConstraintLayout>
